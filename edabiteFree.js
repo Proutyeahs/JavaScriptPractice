@@ -60,6 +60,20 @@ function points(twoPointers, threePointers) {
 	return (twoPointers *2) + (threePointers * 3)
 }
 
+//Easy
+//1
+function matchHouses(step) {
+	if (step === 0) {
+		return step;
+	} else {
+		return (step * 5) + 1;
+}
+}
+//2
+function minMax(arr) {
+	return [Math.min(...arr), Math.max(...arr)]
+}
+
 //Medium
 //1
 function countTrue(arr) {
