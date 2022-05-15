@@ -1,4 +1,4 @@
-//Free trial did not last that long
+//Free trial did not last that long. I plan to log into a differnt account and be more selctive with the problems.
 
 //Very Easy
 //1
