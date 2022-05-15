@@ -69,9 +69,21 @@ function matchHouses(step) {
 		return (step * 5) + 1;
 }
 }
+
 //2
 function minMax(arr) {
 	return [Math.min(...arr), Math.max(...arr)]
+}
+
+//3
+function whichIsLarger(f, g) {
+	if (f() > g()) {
+		return "f"
+	} else if (g() > f()) {
+		return "g"
+	} else {
+		return "neither"
+	}
 }
 
 //Medium
