@@ -91,3 +91,10 @@ function whichIsLarger(f, g) {
 function countTrue(arr) {
 	return arr.filter(arr => arr === true).length;
 }
+
+//2
+function redundant(str) {
+	return function() {
+		return str
+	}
+}
