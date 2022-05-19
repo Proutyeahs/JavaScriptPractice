@@ -98,3 +98,15 @@ function redundant(str) {
 		return str
 	}
 }
+
+//3
+function countTrue(arr) {
+	let numTrue = 0;
+	
+	for (let i = 0; i < arr.length; i++){
+		if (arr[i] == true){
+			numTrue++;
+		}
+	}
+	return numTrue
+}
