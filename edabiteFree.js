@@ -1,4 +1,4 @@
-//Free trial did not last that long. I plan to log into a differnt account and be more selctive with the problems.
+//Free trial did not last that long, I used two accounts to get harder practice in.
 
 //Very Easy
 //1
@@ -61,21 +61,21 @@ function points(twoPointers, threePointers) {
 }
 
 //Easy
-//1
+//1 Taking an input that increases by 5 every step with step one starting at 6
 function matchHouses(step) {
 	if (step === 0) {
 		return step;
 	} else {
 		return (step * 5) + 1;
-}
+	}
 }
 
-//2
+//2 Returns the min value and the max value in an array
 function minMax(arr) {
 	return [Math.min(...arr), Math.max(...arr)]
 }
 
-//3
+//3 Returning which value is larger
 function whichIsLarger(f, g) {
 	if (f() > g()) {
 		return "f"
@@ -87,19 +87,20 @@ function whichIsLarger(f, g) {
 }
 
 //Medium
-//1
-function countTrue(arr) {
-	return arr.filter(arr => arr === true).length;
-}
-
-//2
+//1 Practice making a function within a function which returns the same value that was input
 function redundant(str) {
 	return function() {
 		return str
 	}
 }
 
-//3
+//2 Counting the number of true values in an array
+function countTrue(arr) {
+	return arr.filter(value => value === true).length;
+}
+
+
+//2 Counting the number of true values without using the .filter() and practicing loops
 function countTrue(arr) {
 	let numTrue = 0;
 	
